@@ -1,6 +1,6 @@
 # Tech Talks
 
-![https://travis-ci.org/babuenir/techtalks](https://travis-ci.org/babuenir/techtalks.svg Build Status)
+[![Build Status](https://travis-ci.org/babuenir/techtalks.svg?branch=master)](https://travis-ci.org/babuenir/techtalks)
 
 Sources of technical presentations done at various events
 
