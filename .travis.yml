@@ -4,5 +4,5 @@ install:
   - sudo apt-get install inkscape dia asciidoc
   - wget -c https://github.com/downloads/houqp/asciidoc-deckjs/deckjs-1.6.2.zip
   - asciidoc --backend install deckjs-1.6.2.zip
-  - pip install hovercraft deck2pdf
+  - sudo pip install -r requirements.txt
 script: make
