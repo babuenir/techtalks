@@ -6,6 +6,9 @@ before_install:
 install:
   - sudo apt-get install inkscape dia asciidoc
   - wget -c https://github.com/downloads/houqp/asciidoc-deckjs/deckjs-1.6.2.zip
-  - asciidoc --backend install deckjs-1.6.2.zip
   - sudo pip install -r requirements.txt
+  - virtualenv -p /usr/bin/python2.7 --distribute temp
+  - source temp/bin/activate
+  - asciidoc --backend install deckjs-1.6.2.zip
+  - deactivate
 script: make

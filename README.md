@@ -1,5 +1,7 @@
 # Tech Talks
 
+![https://travis-ci.org/babuenir/techtalks](https://travis-ci.org/babuenir/techtalks.svg Build Status)
+
 Sources of technical presentations done at various events
 
 ## Events
