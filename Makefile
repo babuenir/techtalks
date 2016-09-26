@@ -1,5 +1,5 @@
 sessions = 		\
-	chennaipy-dec-2016 \
+	chennaipy-dec-2015 \
 	u-boot-meetup-sep-2016
 
 all:
