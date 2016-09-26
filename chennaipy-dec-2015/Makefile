@@ -2,13 +2,10 @@ gen-images := $(patsubst %.svg,%.png,$(wildcard *.svg))
 slides 	   := $(patsubst %.txt,%.html,$(wildcard *.txt))
 pdfs	   := $(patsubst %.txt,%.pdf,$(wildcard *.txt))
 
-all: $(pdfs)
+all: $(slides)
 
-$(pdfs): images $(slides)
+$(slides): images
 images: $(gen-images)
-
-%.pdf:%.html
-	deck2pdf --profile=deckjs --quality=75 --width=1366 --height=700 $< $@
 
 %.html:%.txt
 	asciidoc -a asciimath -b deckjs -o $@ $<
