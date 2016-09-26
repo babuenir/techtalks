@@ -8,7 +8,7 @@ $(pdfs): images $(slides)
 images: $(gen-images)
 
 %.pdf:%.html
-	deck2pdf --profile=deckjs --quality=75 --width=1400 --height=800 $< $@
+	deck2pdf --profile=deckjs --quality=75 --width=1366 --height=700 $< $@
 
 %.html:%.txt
 	asciidoc -a asciimath -b deckjs -o $@ $<
