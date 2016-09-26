@@ -5,7 +5,7 @@ python:
 before_install:
   - sudo apt-get update -qq
 install:
-  - sudo apt-get install inkscape dia asciidoc
+  - sudo apt-get install inkscape dia asciidoc python3-pip
   - wget -c https://github.com/downloads/houqp/asciidoc-deckjs/deckjs-1.6.2.zip
   - sudo pip3 install -r requirements.txt
   - virtualenv -p /usr/bin/python2.7 --distribute temp
