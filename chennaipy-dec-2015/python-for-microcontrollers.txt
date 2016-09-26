@@ -1,0 +1,162 @@
+= Python for MicroControllers
+:author: BabuSubashChandar
+:email: babusubashchandar@zilogic.com
+:description: Introduction to MicroPython and uPy on NuttX
+:revdate: {localdate}
+:revnumber: 1.0
+:deckjs_theme: web-2.0
+:deckjs_transition: horizontal-slide
+:pygments:
+:pygments_style: native
+:scrollable:
+
+== MicroPython
+
+image::damien-p-george.jpg[]
+
+  * *Damien P George* created MicroPython.
+  * A Kickstarter to port python for microcontrollers.
+  * Over 3000 boards shipped running python.
+
+== Why Python in MicroControllers?
+
+  * Easy for beginners to start Embedded programming.
+  * Faster development cycle.
+  * Ease of maintainence.
+  * Lots of opportunities in IoT world.
+
+++++
+</section>
+<section class="slide">
+<h1>It is not regular CPython</h1>
+</section>
+++++
+
+== Concerns in running CPython on uCs
+
+  * Memory (Both ROM and RAM).
+  * Speed.
+
+== Features of MicroPython
+
+  * Based on Python3.
+  * Smaller Footprint to run on 100MHz processors with several
+    Kilobytes of RAM.
+  * SDcard support.
+  * Small filesystem for internal flash and SDcard (Pyboard).
+
+== Top Level Architecture uPy
+
+image::upy-arch-top-level.png[]
+
+== Board support
+
+  * Pyboard (Official MicroPython board)
+  * ESP8266 Wifi Module.
+  * CC3200 Launchpad (Wifi Module).
+  * PIC16bit.
+  * Also runs in *nix / Windows / Mac
+
+== Pyboard
+
+image::pyboard.png[]
+
+== Pyboard (Contd.)
+
+  * GPIO pins.
+  * SDcard.
+  * 3-Axis Accelerometer.
+  * Real Time Clocks.
+  * Can connect a bluetooth module for wirless REPL.
+  * All through Python.
+
+== File Operations using uPy
+
+++++
+<style>
+  .o, .n, .p {
+  color: #000;
+  }
+</style>
+++++
+
+[source, py]
+------
+micropython
+Micro Python  on 2015-12-25
+Type "help()" for more information.
+>>> fd = open('a.txt', 'w')
+>>> fd.write('helloworld')
+10
+>>> fd.close()
+>>> fd = open('a.txt', 'r')
+>>> fd.read()
+'helloworld'
+>>>
+------
+
+== NuttX
+
+image::gregory-nutt.jpg[width="220"]
+
+  * *Gregory Nutt* created NuttX.
+  * Open Source Real Time Operating Systems.
+
+== NuttX (Contd.)
+
+  * Over 100+ boards supported.
+  * Small footprint.
+  * Linux work-a-like OS features.
+  * Supports 8-bit to moderate 32-bit architectures.
+  * Built-in scheduler and task handling.
+  * Filesystems like FAT, VFS, NFS, etc.
+  * Can be built as a library.
+
+== NuttX Architecture
+
+image::nuttx-architecture.png[]
+
+== Zkit-ARM-1769
+
+image::zkit-arm-1769.png[width="648"]
+
+== NuttShell on Zkit-ARM-1769
+
+  * Shell like environment in NuttX.
+  * Provides utilities to exploit the embedded resources.
+  * Runs Python as application.
+  * Handles tasks.
+
+== uPy over NuttShell
+
+image::upy-nuttx.png[width="480"]
+
+== How it is done?
+
+  * Compile uPy as built-in app for NuttShell in NuttX. (Build System
+    takes care of compilation beautifully). Thanks to *Dave Marples*.
+  * exec's the uPy from NuttShell.
+  * Calls internal lexers and parsers.
+  * Compiles the valid inputs to bytecodes.
+  * VM runs the bytecode.
+
+== NuttShell with Python
+
+image::nuttshell.png[width="648"]
+
+++++
+</section>
+<section class="slide">
+<h1>Demo</h1>
+</section>
+<section class="slide">
+<h1>Questions</h1>
+</section>
+++++
+
+== References
+
+  * https://github.com/micropython/micropython.git[MicroPython Github]
+  * http://micropython.org/static/resources/pyconuk14-mpinternals.pdf[PyCon UK 2014 - uP internals]
+  * http://micropython.org/static/resources/pyconuk14-mpkickstarter.pdf[PyCon UK 2014 - uP KickStarter]
+  * http://www.nuttx.org/Documentation/NuttX.html[NuttX Documentation]
