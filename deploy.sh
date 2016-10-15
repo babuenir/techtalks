@@ -25,9 +25,9 @@ git init
 git config user.name "BabuSubashChandar"
 git config user.email "babuenir@gmail.com"
 
-git remote add upstream "https://$GH_TOKEN@github.com/babuenir/blog.git"
+git remote add upstream "https://$GH_TOKEN@github.com/babuenir/techtalks.git"
 git fetch upstream
-git reset upstream/gh-pages
+git reset upstream/talks
 
 #echo "babuenir.github.io" > CNAME
 
@@ -35,4 +35,4 @@ touch .
 
 git add -A .
 git commit -m "rebuild pages at ${rev}"
-git push -q upstream HEAD:gh-pages
+git push -q upstream HEAD:talks
