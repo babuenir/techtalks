@@ -2,7 +2,7 @@
 
 set -o errexit -o nounset
 
-TALKS="$(find . -name * -type d)"
+TALKS="chennaipy-dec-2015 u-boot-meetup-sep-2016"
 
 if [ "$TRAVIS_BRANCH" != "master" ]
 then
