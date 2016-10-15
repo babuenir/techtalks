@@ -1,15 +1,15 @@
 sudo: required
 dist: trusty
 before_install:
-  - sudo apt-get update -qq
+- sudo apt-get update -qq
 install:
-  - sudo apt-get install -y inkscape dia asciidoc python3-pip libxslt1-dev zlib1g-dev
-  - wget -c https://github.com/downloads/houqp/asciidoc-deckjs/deckjs-1.6.2.zip
-  - sudo pip3 install -r requirements.txt
-  - asciidoc --backend install deckjs-1.6.2.zip
+- sudo apt-get install -y inkscape dia asciidoc python3-pip libxslt1-dev zlib1g-dev
+- wget -c https://github.com/downloads/houqp/asciidoc-deckjs/deckjs-1.6.2.zip
+- sudo pip3 install -r requirements.txt
+- asciidoc --backend install deckjs-1.6.2.zip
 script: make
 env:
   global:
-  - secure: lFNOzXH62VKNDxvoJv3QrOwowMyELi/9C6rANaxplKVW/h7ZF9jjJTaQKUWK0vY5bn5OytSeEuYOJu4FDHy3xGsfbTGaXJamdQ0P+579GmYeojNZjHXD4upu85F602RuOkGNMQUtmDjC+sgj5iBbvWuu0Zr8KVKPTfxqFwuYxaMjKi1kSy+4JtrrPIfT1BVGW7QQsI+K/MLmN/MJ5xWlB56Jj6eeIkOXIjyzYVsk6YF8odjbDybe978Kns3OylCf2n999ZrEmGgZN5U0nh/2pIFdoyb2aZ48qdu37wkrm2+q0e2Aaf4+iL1QpXn3FiwswkB8yjeZ/ZZrRPf+DZImfHytDAOt7nTvsjkbN9sgCtQTURB2pnlPT9vY036EH4F458bh2kvxoeWzRBVuka99p8GXllcTWzDJ8ew1tXahzSk7g6CK1GKQowAfkuK3geQ6xgPSInrzfB2SMrko7c323GyCTt9NCLeAF525eeIzlH6pckW6Oa4QmizMFkVC8gDQ8iV3Lisn9P0I3VvkAgn+fMv8gWiJvR1U4bYfQYv4xB9SrSD5vP2BEjya98v++H0qgGhuBRns08eMOnAViB0v/Oo7L4XGADSvdHbSX4RUSHNUqBtt6TFqtaurm9a0h0p5VXYc9DLryhKpgzWE6BOiIyuVcm/k8Cdo86PZ/KQliFE=
+  - secure: YqPYuORzvh8m29dXW9PXT7n3rSTyK9Xufe06sCY/kcr3BmUxU+yWT+71NHsjRofdhUqCGGi4u8Cge5etNpbsWD8EG0T9s6H/chPQqM81ZmAKRWr2dBm65n+sXsTFMdZytNGc2VL8voWXtc26QDan+4xI2eTeHUL9QhRIKXCoGStHaHgvuwdNgTj9A/uk84Q0CCV1gXylNHFGdQ3C1gviguB79VRVNDzXXIOE4nJUloHYX1/JVhiSgErpb6jaxSOj1g2ThkLPI2iWlXkTSQpKn4tZ1BVuuDAzhPTeRGdurFF9PE4ORksOVXdOsbfbzhNKCR5P2Ydm8EST8YB82Vt28Rw2kDjTs4FrK6rqEocBTAsSz27zb3vSwkXVv3HodgzWWkyABuDBHE2PV7WRHP71nq/FvzEFzqNNSmxsT5Yu9k+xa07AmwW1BFGtU6bumgicFiwJI6KILB/3kIBOnfFyx+KdsuNis6RyY5S5ovjD6Z9bhkmQDi321VwTxAmNGlbrU4dGOZwYEBerMj3w4Y5JRZ3iFymkMZlr5oiQ4gDbla+1+ApPoN8INYKQ0lYv8NPpu1i+mM7H1pjjC71HAzQFkwukxXJC6GdJvkFqexIflVhmvMTo9+xqLxT8+I09LDLNJBf5rNiuIY/dTbz8PeuA1eiTtfxWdDQ+ptSzL31Tn2w=
 after_success:
-  - bash deploy.sh
+- bash deploy.sh
