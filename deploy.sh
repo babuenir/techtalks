@@ -2,6 +2,7 @@
 
 set -o errexit -o nounset
 
+TOPDIR=${PWD}
 TALKS="chennaipy-dec-2015 u-boot-meetup-sep-2016"
 
 if [ "$TRAVIS_BRANCH" != "master" ]
@@ -15,8 +16,9 @@ rev=$(git rev-parse --short HEAD)
 mkdir output
 cd output
 mkdir talks
+
 for talk in $TALKS;do
-    cp -rf $talk/output/* talks
+    cp -rf $TOPDIR/$talk/output/* talks
 done
 
 git init

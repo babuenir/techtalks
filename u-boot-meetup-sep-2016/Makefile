@@ -10,6 +10,7 @@ all: $(slide)
 
 $(slide): $(images)
 	hovercraft u-boot-boot-flow.rst output
+	mv output/index.html output/u-boot-boot-flow.html
 
 .PHONY: all clean
 clean:
