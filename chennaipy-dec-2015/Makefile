@@ -3,6 +3,8 @@ slides 	   := $(patsubst %.txt,%.html,$(wildcard *.txt))
 pdfs	   := $(patsubst %.txt,%.pdf,$(wildcard *.txt))
 
 all: $(slides)
+	mkdir -p output
+	cp *.html *.png *.jpg output
 
 $(slides): images
 images: $(gen-images)
@@ -14,7 +16,7 @@ images: $(gen-images)
 	inkscape -e $@ -f $<
 
 clean:
-	rm -f *.pdf *.html *.md5 *.png *.log
+	rm -rf *.pdf *.html *.md5 *.png *.log output
 
 junk-clean:
 	rm -f *~

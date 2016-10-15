@@ -8,3 +8,8 @@ install:
   - sudo pip3 install -r requirements.txt
   - asciidoc --backend install deckjs-1.6.2.zip
 script: make
+env:
+  global:
+  - secure: lFNOzXH62VKNDxvoJv3QrOwowMyELi/9C6rANaxplKVW/h7ZF9jjJTaQKUWK0vY5bn5OytSeEuYOJu4FDHy3xGsfbTGaXJamdQ0P+579GmYeojNZjHXD4upu85F602RuOkGNMQUtmDjC+sgj5iBbvWuu0Zr8KVKPTfxqFwuYxaMjKi1kSy+4JtrrPIfT1BVGW7QQsI+K/MLmN/MJ5xWlB56Jj6eeIkOXIjyzYVsk6YF8odjbDybe978Kns3OylCf2n999ZrEmGgZN5U0nh/2pIFdoyb2aZ48qdu37wkrm2+q0e2Aaf4+iL1QpXn3FiwswkB8yjeZ/ZZrRPf+DZImfHytDAOt7nTvsjkbN9sgCtQTURB2pnlPT9vY036EH4F458bh2kvxoeWzRBVuka99p8GXllcTWzDJ8ew1tXahzSk7g6CK1GKQowAfkuK3geQ6xgPSInrzfB2SMrko7c323GyCTt9NCLeAF525eeIzlH6pckW6Oa4QmizMFkVC8gDQ8iV3Lisn9P0I3VvkAgn+fMv8gWiJvR1U4bYfQYv4xB9SrSD5vP2BEjya98v++H0qgGhuBRns08eMOnAViB0v/Oo7L4XGADSvdHbSX4RUSHNUqBtt6TFqtaurm9a0h0p5VXYc9DLryhKpgzWE6BOiIyuVcm/k8Cdo86PZ/KQliFE=
+after_success:
+  - bash deploy.sh
