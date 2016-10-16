@@ -94,7 +94,7 @@
             <dia:string>#POR#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -142,7 +142,7 @@
             <dia:string>#BIOS#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -190,7 +190,7 @@
             <dia:string>#MBR#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -238,7 +238,7 @@
             <dia:string>#Bootloader#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -286,7 +286,7 @@
             <dia:string>#Kernel#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -334,7 +334,7 @@
             <dia:string>#Filesystem#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -382,7 +382,7 @@
             <dia:string>#Applications#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -616,7 +616,7 @@
             <dia:string>#POR#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -664,7 +664,7 @@
             <dia:string>#RomBoot#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -713,7 +713,7 @@
 Bootloader#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -761,7 +761,7 @@ Bootloader#</dia:string>
             <dia:string>#U-Boot#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -809,7 +809,7 @@ Bootloader#</dia:string>
             <dia:string>#Kernel#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -857,7 +857,7 @@ Bootloader#</dia:string>
             <dia:string>#Filesystem#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -905,7 +905,7 @@ Bootloader#</dia:string>
             <dia:string>#Applications#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.84666663408279419"/>
@@ -1095,7 +1095,7 @@ Bootloader#</dia:string>
         <dia:point val="4,30"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="4,29.2675;5.16,30.1875"/>
+        <dia:rectangle val="4,29.2675;4.95,30.1875"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1103,7 +1103,7 @@ Bootloader#</dia:string>
             <dia:string>#PC#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.98777773976325989"/>
@@ -1128,7 +1128,7 @@ Bootloader#</dia:string>
         <dia:point val="19,30"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19,29.2675;26.805,30.1875"/>
+        <dia:rectangle val="19,29.2675;26.125,30.1875"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1136,7 +1136,7 @@ Bootloader#</dia:string>
             <dia:string>#Embedded Target#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
-            <dia:font family="sans" style="80" name="Helvetica-Bold"/>
+            <dia:font family="Droid Sans Mono" style="0" name="Courier"/>
           </dia:attribute>
           <dia:attribute name="height">
             <dia:real val="0.98777773976325989"/>
