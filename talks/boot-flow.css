@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Racing+Sans+One|Satisfy);
+
+body {
+    font-size: 200%;
+    text-align: left;
+    font-family: Yanone Kaffeesatz;
+}
+
+
+p {
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    text-align: center;
+}
+
+em {
+    font-family: Encode Sans;
+    font-size: 100%;
+}
+
+strong {
+    font-family: Yanone Kaffeesatz;
+    font-size: 150%;
+    letter-spacing: -2px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: Bold;
+    text-align: center;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    font-size: 100%;
+    font-family: Encode Sans;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-left: 0.1em;
+    line-height: 1.5em;
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-left: 0.1em;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#ThreeD H1 {
+    font-family: Encode Sans;
+    font-size: 300%;
+}
+
+#thequestion p {
+    font-family: Encode Sans;
+}
+
+#followme p {
+    text-align: left;
+}
+
+.fa-linkedin-square {
+    color: #4875B4;
+}
+.fa-twitter {
+    color: #33CCFF;
+}
+
+#references li {
+    font-size: 75%;
+}
+
+pre {
+    background: #cccccc;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+a,
+li a {
+    font-size: 80%;
+    font-weight: normal;
+    text-decoration: none;
+    color: #325C74;
+}
+
+#treasurehunt p {
+    font-size: 100%;
+    font-family: Encode Sans;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-left: 0.1em;
+    line-height: 1.5em;
+    margin-left: 0.1em;
+}
+
+#calltrace li {
+    font-size: 80%;
+}
+
+#connect-with-people table,
+#connect-with-people th,
+#connect-with-people td {
+    border: 1px solid #4f8e83;
+}
+#connect-with-people th,
+#connect-with-people td {
+    padding: 15px;
+}
+#connect-with-people th {
+    background: #008080;
+    color: #fff;
+    font-size: 125%;
+}
