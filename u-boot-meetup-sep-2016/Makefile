@@ -4,9 +4,7 @@ slide := u-boot-boot-flow.html
 all: $(slide)
 
 %.png: %.svg
-	inkscape -e $@ -f $< -d 90
-%.png: %.dia
-	dia -t png -e $@  $<
+	inkscape -T -e $@ -f $< -d 90
 
 $(slide): $(images)
 	hovercraft u-boot-boot-flow.rst output
