@@ -179,6 +179,12 @@ Tell me **How**, Already!
 
     * Okay, Lets see how Vagrant solves these problems.
 
+    * Vagrant provides a configurable, reproducible, portable,
+      disposable and consistent environment without sacrificing any of
+      the comfort.
+
+    * What that suppose to mean anyway?
+
 ----
 
 :data-x: r50
@@ -231,6 +237,8 @@ Infrastructure Management
 
 **Version Control**
 ===================
+
+.. note::
 
   * The configuration files can be placed under version control along
     with your application code.
