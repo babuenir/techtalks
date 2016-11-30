@@ -12,7 +12,7 @@ the Linux Kernel.
 
 .. raw:: html
 
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 :data-scale: 10
 :id: title
