@@ -3,7 +3,10 @@
 set -o errexit -o nounset
 
 TOPDIR=${PWD}
-TALKS="chennaipy-dec-2015 u-boot-meetup-sep-2016 emlinux-meetup-oct-2016"
+TALKS="chennaipy-dec-2015 \
+u-boot-meetup-sep-2016 \
+emlinux-meetup-oct-2016
+linux-security-meetup-nov-2016"
 
 if [ "$TRAVIS_BRANCH" != "master" ]
 then
