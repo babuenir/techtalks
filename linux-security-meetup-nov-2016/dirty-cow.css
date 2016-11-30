@@ -131,8 +131,8 @@ th {
     color: white;
 }
 
-#followme table,
-#followme th,td,tr {
-    border: 0;
-    background-color: #fff;
+#followme table {
+    width: 20%;
 }
+
+#followme tr:nth-child(even) > td {background-color: #fff}

@@ -318,6 +318,6 @@ References
     <div class="followme">
     <table align="center">
     <tr><td>
-    <i class="fa fa-linkedin-square"></i></td><td><p>&nbsp;&nbsp;babuenir</p></td></tr>
-    <tr><td><i class="fa fa-twitter"></i><td><p>&nbsp;&nbsp;@babuenir</p></td></tr>
-    <tr><td><i class="fa fa-github"></i><td><p>&nbsp;&nbsp;babuenir</p></td></tr></table></div>
+    <i class="fa fa-linkedin-square"></i></td><td><p>babuenir</p></td></tr>
+    <tr><td><i class="fa fa-twitter"></i></td><td><p>@babuenir</p></td></tr>
+    <tr><td><i class="fa fa-github"></i></td><td><p>babuenir</p></td></tr></table></div>
