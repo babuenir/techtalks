@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Titillium+Web|Yanone+Kaffeesatz);
+
+body {
+    font-size: 200%;
+    text-align: left;
+    font-family: "Yanone Kaffeesatz";
+}
+
+
+p {
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    text-align: center;
+}
+
+em {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 100%;
+}
+
+strong {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 150%;
+    letter-spacing: -2px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: Bold;
+    text-align: center;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+li {
+    font-size: 100%;
+    font-family: Encode Sans, "Titillium Web";
+    font-weight: normal;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    padding-left: 0.1em;
+    line-height: 1.5em;
+    list-style-type: circle;
+    margin-left: 0.1em;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#followme p {
+    text-align: center;
+}
+
+.fa-linkedin-square {
+    color: #4875B4;
+}
+.fa-twitter {
+    color: #33CCFF;
+}
+
+
+#references li {
+    font-size: 75%;
+}
+
+pre {
+    background: #cccccc;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+a,
+li a {
+    font-size: 80%;
+    font-weight: normal;
+    text-decoration: none;
+    color: #325C74;
+}
+
+
+.line-block {
+    background-color: #e0e0e0;
+    color: #424242;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.code {
+    overflow-x: scroll;
+    font-size: 80%;
+    background-color: #e0e0e0;
+    color: #424242;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+#affected p > strong {
+    font-size: 400%;
+    color: #ee0000;
+}
+
+#fixed p > strong {
+    font-size: 400%;
+    color: #00ee00;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) > td {background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#followme table,
+#followme th,td,tr {
+    border: 0;
+    background-color: #fff;
+}
